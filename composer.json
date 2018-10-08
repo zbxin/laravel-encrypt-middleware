@@ -1,6 +1,6 @@
 {
-  "name": "zhieq/laravel-tools",
-  "description": "zhieq group commonly used tools",
+  "name": "zhieq/laravel-encrypt-middleware",
+  "description": "zhieq group encrypt middleware",
   "type": "library",
   "license": "MIT",
   "authors": [
