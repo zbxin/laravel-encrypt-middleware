@@ -1,6 +1,6 @@
 <?php
 
-namespace ZhiEq\Middleware;
+namespace ZhiEq\Encrypt\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
