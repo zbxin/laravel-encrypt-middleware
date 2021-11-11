@@ -1,24 +1,24 @@
 {
-  "name": "zhieq/laravel-encrypt-middleware",
-  "description": "zhieq group encrypt middleware",
+  "name": "zbxin/laravel-encrypt-middleware",
+  "description": "encrypt middleware",
   "type": "library",
   "license": "MIT",
   "authors": [
     {
-      "name": "zhieq",
-      "email": "developer@zhieq.com"
+      "name": "zbxin",
+      "email": "developer@zbxin.com"
     }
   ],
   "require": {
     "laravel/framework": "*",
     "ext-json": "*",
     "ext-openssl": "*",
-    "zhieq/laravel-contracts": "^1.0",
-    "guzzlehttp/guzzle": "^6.3"
+    "zbxin/laravel-contracts": "^1.0",
+    "guzzlehttp/guzzle": "^7.0"
   },
   "autoload": {
     "psr-4": {
-      "ZhiEq\\Encrypt\\": "src"
+      "zbxin\\Encrypt\\": "src"
     }
   }
 }
