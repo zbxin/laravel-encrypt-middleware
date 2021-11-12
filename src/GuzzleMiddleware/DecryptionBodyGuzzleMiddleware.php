@@ -1,11 +1,11 @@
 <?php
 
-namespace ZhiEq\Encrypt\GuzzleMiddleware;
+namespace Zbxin\Encrypt\GuzzleMiddleware;
 
 use GuzzleHttp\Promise\Promise;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
-use ZhiEq\Encrypt\AESEncrypt;
+use Zbxin\Encrypt\AESEncrypt;
 
 class DecryptionBodyGuzzleMiddleware
 {

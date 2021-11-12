@@ -1,11 +1,11 @@
 <?php
 
-namespace ZhiEq\Encrypt\Middleware;
+namespace Zbxin\Encrypt\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
-use ZhiEq\Contracts\MiddlewareExceptRoute;
-use ZhiEq\Encrypt\AESEncrypt;
+use Zbxin\Contracts\MiddlewareExceptRoute;
+use Zbxin\Encrypt\AESEncrypt;
 
 
 class DecryptionBody extends MiddlewareExceptRoute

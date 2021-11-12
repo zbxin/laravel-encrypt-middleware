@@ -1,12 +1,12 @@
 <?php
 
-namespace ZhiEq\Encrypt\Middleware;
+namespace Zbxin\Encrypt\Middleware;
 
 use Closure;
 use Illuminate\Http\Request;
 use Illuminate\Http\Response;
-use ZhiEq\Contracts\MiddlewareExceptRoute;
-use ZhiEq\Encrypt\AESEncrypt;
+use Zbxin\Contracts\MiddlewareExceptRoute;
+use Zbxin\Encrypt\AESEncrypt;
 
 class EncryptionBody extends MiddlewareExceptRoute
 {

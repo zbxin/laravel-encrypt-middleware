@@ -1,6 +1,6 @@
 <?php
 
-namespace ZhiEq\Encrypt;
+namespace Zbxin\Encrypt;
 
 use Illuminate\Contracts\Encryption\EncryptException;
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace ZhiEq\Encrypt\GuzzleMiddleware;
+namespace Zbxin\Encrypt\GuzzleMiddleware;
 
 
 use Psr\Http\Message\RequestInterface;
-use ZhiEq\Encrypt\AESEncrypt;
+use Zbxin\Encrypt\AESEncrypt;
 
 class EncryptionBodyGuzzleMiddleware
 {
